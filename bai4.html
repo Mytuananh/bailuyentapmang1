@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let d = [1,3,5,7,9,12]
+  let a = [ ]
+  for (let i = 0; i <d.length ; i++) {
+      for (let j = 0; j < d.length-i; j++) {
+          a[i] = d[j]
+            a[i] += ","
+      }  document.write(a[i])
+  }
+</script>
+</body>
+</html>
